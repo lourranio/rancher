@@ -9,21 +9,7 @@
 
 ## About <a name = "about"></a>
 
-1. Baixe o respositorio
-2. Entre na pasta rancher/jenkins
-
-```
-nerdctl pull bitnami/jenkins
-
-nerdctl compose up -d
-
-```
-
-<p align="center">
-  <a href="" rel="noopener">
- <img  src="img/nerdctl-compose-up-d.png" alt="Project logo"></a>
-</p>
-
+Write about 1-2 paragraphs describing the purpose of your project.
 
 ## Getting Started <a name = "getting_started"></a>
 

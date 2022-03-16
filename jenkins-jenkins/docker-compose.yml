@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  jenkins:
+    image: docker.io/jenkins/jenkins:jdk11
+    ports:
+      - '8082:8080'
+    environment:
+      - JENKINS_PASSWORD=jenkins
+    volumes:
+      - 'jenkins_data:/jenkins'
+
+volumes:
+  jenkins_data:
+    driver: local

@@ -9,7 +9,16 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+1. Baixe o respositorio
+2. Entre na pasta rancher/jenkins
+
+```
+nerdctl pull bitnami/jenkins
+
+nerdctl compose up -d
+
+```
+
 
 ## Getting Started <a name = "getting_started"></a>
 

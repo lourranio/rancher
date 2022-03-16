@@ -19,6 +19,11 @@ nerdctl compose up -d
 
 ```
 
+<p align="center">
+  <a href="" rel="noopener">
+ <img  src="rancher/jenkins/img/nerdctl-compose-up-d.png alt="Project logo"></a>
+</p>
+
 
 ## Getting Started <a name = "getting_started"></a>
 

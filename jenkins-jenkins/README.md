@@ -7,7 +7,7 @@
 - [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 
-## About <a name = "about"></a>
+## PASSO A PASSO <a name = "passos"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
 
@@ -41,6 +41,11 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo.
 
-## Usage <a name = "usage"></a>
+## INSTALACAO <a name = "usage"></a>
 
-Add notes about how to use the system.
+1. Na linha de comando digite
+```
+nerdctl run -p 8080:8080 -p 50000:50000 jenkins/jenkins:lts-jdk11
+```
+
+2. A

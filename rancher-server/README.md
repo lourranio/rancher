@@ -76,9 +76,8 @@ Se o driver do nó OCI não estiver incluído como driver integrado:
 * Crie um(s) modelo(s) de nó usando suas credenciais de nuvem e informações da OCI
 * Crie um cluster "Oracle Cloud Infrastructure" com pools de nós usando o modelo de nó
 
-</p> <p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="img/01-driver-oci.png" alt="Project logo"></a> <img width=200px height=200px src="img/01-driver-oci.png" alt="Project logo"></a> <img width=200px height=200px src="img/02-driver-oci.png" alt="Project logo"></a> <img width=200px height=200px src="img/03-driver-oci.png" alt="Project logo"></a> <img width=200px height=200px src="img/04-driver-oci.png" alt="Project logo"></a><img width=200px height=200px src="img/05-driver-oci.png" alt="Project logo"></a>
+<p align="center">
+  <img width=200px height=200px src="img/01-driver-oci.png" alt="Project logo"> <img width=200px height=200px src="img/02-driver-oci.png" alt="Project logo"><img width=200px height=200px src="img/03-driver-oci.png" alt="Project logo"> <img width=200px height=200px src="img/04-driver-oci.png" alt="Project logo"><img width=200px height=200px src="img/05-driver-oci.png" alt="Project logo"></a>
 </p>
 
 ###  ENGLISH 

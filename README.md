@@ -22,8 +22,8 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
+- [JENKINS versao BITNAMI](./jenkins-bitnami/README.md)
+- [JENKINS versao OFICIAL](./jenkins-jenkins/README.mdjenkins-j)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)

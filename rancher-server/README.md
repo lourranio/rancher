@@ -21,7 +21,7 @@
 ## 📝 Table of Contents
 
 - [SOBRE](#sobre)
-- [Getting Started](#getting_started)
+- [INSTALACAO](#instalacao)
 
 
 ## 🧐 About <a name = "about"></a>

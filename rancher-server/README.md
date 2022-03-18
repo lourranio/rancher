@@ -115,3 +115,7 @@ Antes de adicionar o host ao Rancher, vamos fazer a instalação do Docker utili
   ```
   curl https://releases.rancher.com/install-docker/18.09.sh | sh
   ```
+link: https://rancher.com/docs/rancher/v1.6/en/hosts/#supported-docker-versions
+
+Ao final da instalação, você verá a seguinte tela, que mostra que o Docker versão do script foi instalado e pergunta se você que executar o comando para evitar que você precise digitar “sudo” sempre que for rodando algum comando Docker. 
+

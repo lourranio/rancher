@@ -95,3 +95,23 @@ If the OCI Node Driver is not inluded as a built-in driver:
 * Click the user profile button in the upper right corner and add OCI Cloud Credentials
 * Create a Node Template(s) using your cloud credentials and information from OCI
 * Create an "Oracle Cloud Infrastructure" cluster with node pools using the node template
+
+
+
+
+## 🧐 Adicionando Hosts no Rancher
+ <a name = "add-host"></a>
+
+O próximo passo da nossa configuração é adicionar um host “local” ao Rancher Server.
+
+O que é um host? Antes de adicionar seu primeiro serviço ou iniciar um contêiner, você deve adicionar pelo menos um único host Linux que suporte o Docker e seja capaz de se comunicar com o servidor Rancher via HTTP. O Rancher suporta a adição de hosts Linux na forma de uma máquina virtual ou física de qualquer fornecedor de nuvem pública, nuvens local ou mesmo em servidores bare metal (físicos).
+
+### Instalando o Docker
+
+Antes de adicionar o host ao Rancher, vamos fazer a instalação do Docker utilizando um script de instalação fornecido pelo time da Rancher Labs para instalar o Docker na sua versão correta. Todos os comandos abaixo devem ser executados em seu Rancher Host.
+
+  
+  No terminal do RANCHER, faca
+  ```
+  curl https://releases.rancher.com/install-docker/18.09.sh | sh
+  ```

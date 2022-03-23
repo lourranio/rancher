@@ -9,6 +9,8 @@ Com 3 servidores: Master + 2 Nós.
 ```
 #!/bin/bash
 
+sudo apt-get install curl -y
+
 # Swap Off
 sudo swapoff -a
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab

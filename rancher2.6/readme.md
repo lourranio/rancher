@@ -6,6 +6,7 @@ Com 3 servidores: Master + 2 Nós.
 
 
 - Primeiro SCRIPT
+```
 #!/bin/bash
 
 # Run the installer
@@ -16,9 +17,10 @@ systemctl enable rke2-server.service
 systemctl start rke2-server.service
 
 exit 127
-
+```
 
 - Segundo Script
+```
 #!/bin/bash
 
 # Swap Off
@@ -41,3 +43,4 @@ sudo apt update
 sudo apt install -y kubectl
 
 exit 127
+```

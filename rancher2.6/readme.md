@@ -9,20 +9,6 @@ Com 3 servidores: Master + 2 Nós.
 ```
 #!/bin/bash
 
-# Run the installer
-curl -sfL https://get.rke2.io | sh -
-# Enable the rke2-server service
-systemctl enable rke2-server.service
-# Start the service
-systemctl start rke2-server.service
-
-exit 127
-```
-
-- Segundo Script
-```
-#!/bin/bash
-
 # Swap Off
 sudo swapoff -a
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
@@ -41,6 +27,22 @@ sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://pack
 echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
 sudo apt update
 sudo apt install -y kubectl
+
+exit 127
+```
+
+- Segundo Script
+
+
+```
+#!/bin/bash
+
+# Run the installer
+curl -sfL https://get.rke2.io | sh -
+# Enable the rke2-server service
+systemctl enable rke2-server.service
+# Start the service
+systemctl start rke2-server.service
 
 exit 127
 ```

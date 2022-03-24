@@ -1,4 +1,4 @@
-Rancher 2.6 com RKE2/Helm
+# Rancher 2.6 com RKE2/Helm
 
 Com 3 servidores: Master + 2 Nós.
 
@@ -100,4 +100,15 @@ echo "token: $TOKEN" \ >> /etc/rancher/rke2/config.yaml
 systemctl start rke2-agent.service
 
 exit 127
+```
+---------------------------
+
+## VOLTE AO SERVIDOR MASTER
+
+```
+kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v1.5.4/cert-manager.yaml
+
+kubectl get deploy --all-namespaces
+kubectl get po --all-namespaces
+
 ```

@@ -53,6 +53,10 @@ sudo systemctl start rke2-server.service
 
 exit 127
 ```
+Verificar o STATUS do SERVICO rke2-server.service
+```
+sudo systemctl status rke2-server.service
+```
 
 Verificar a TOKEN do RANCHER SERVER. Voce vai precisar para adicionar no WOKER ( pod / ou nó )
 

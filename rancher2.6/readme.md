@@ -87,8 +87,8 @@ sudo curl -sfL https://get.rke2.io | INSTALL_RKE2_TYPE="agent" sudo sh -
 sudo systemctl enable rke2-agent.service
 
 # Configure the rke2-agent service¶
-mkdir -p /etc/rancher/rke2/
-echo "server: https://$SERVER_IP:9345" | sudo tee /etc/rancher/rke2/config.yaml
+sudo mkdir -p /etc/rancher/rke2/
+sudo echo "server: https://$SERVER_IP:9345" | sudo tee /etc/rancher/rke2/config.yaml
 echo "token: $TOKEN" \ >> /etc/rancher/rke2/config.yaml
 
 # Start the service

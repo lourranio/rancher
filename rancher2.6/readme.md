@@ -54,6 +54,13 @@ sudo systemctl start rke2-server.service
 exit 127
 ```
 
+Verificar a TOKEN do RANCHER SERVER. Voce vai precisar para adicionar no WOKER ( pod / ou nó )
+
+```
+sudo cat  /var/lib/rancher/rke2/server/node-token
+
+```
+
 
 ## SERVIDOR NÓ (WORKER)
 

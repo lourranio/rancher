@@ -40,7 +40,12 @@ exit 127
 #!/bin/bash
 
 # Run the installer
-curl -sfL https://get.rke2.io | sh -
+curl -sfL https://get.rke2.io | sh - #
+  # Se o comando acima der erro ..faca 
+  sudo curl -sfL https://get.rke2.io | sudo sh -
+
+
+
 # Enable the rke2-server service
 systemctl enable rke2-server.service
 # Start the service

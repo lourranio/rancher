@@ -84,7 +84,7 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 sudo curl -sfL https://get.rke2.io | INSTALL_RKE2_TYPE="agent" sudo sh -
 
 # Enable the rke2-agent service
-systemctl enable rke2-agent.service
+sudo systemctl enable rke2-agent.service
 
 # Configure the rke2-agent service¶
 mkdir -p /etc/rancher/rke2/

@@ -33,6 +33,11 @@ sudo apt install -y kubectl
 exit 127
 ```
 
+Depois digite no terminal
+```
+export KUBECONFIG=/etc/rancher/rke2/rke2.yaml PATH=$PATH:/var/lib/rancher/rke2/bin
+```
+
 - Segundo Script
 
 
